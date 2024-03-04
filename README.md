@@ -63,3 +63,15 @@ Here, the code has "ClassName" instead of "Class" because JSX doesn't recognize 
 Output: 
 
 ![Screenshot](assets/06.png)
+
+## Answer of Question no. 4
+
+Output: 
+
+![Screenshot](assets/08.png)
+
+There is a mistake on h1 tag in "person" curly bracket. It was supposed to refer to the person object, but it didn't specify person's attribute. Therefore we can fix it with assigning an attribute to the person. 
+
+Fixed code: 
+
+![Screenshot](assets/09.png)
