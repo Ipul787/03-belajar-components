@@ -1,5 +1,8 @@
+const baseUrl = 'https://i.imgur.com/';
 const person = {
     name: 'Gregorio Y. Zara',
+    imageId: '7vQD0fP',
+    imageSize: 's',
     theme: {
       backgroundColor: 'black',
       color: 'pink'
@@ -8,9 +11,9 @@ const person = {
   
   export default function TodoList() {
 
-    const imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2017_British_GP_-_Vettel%27s_Ferrari_SF70H_with_%27Shield%27_system_%282%29.jpg/180px-2017_British_GP_-_Vettel%27s_Ferrari_SF70H_with_%27Shield%27_system_%282%29.jpg';
+    const imageUrl = `${baseUrl}${person.imageId}${person.imageSize}`;
     return (
-      <div style={person.theme}>
+        <div style={person.theme}>
         <h1>{person.name}'s Todos</h1>
         <img
           className="avatar"

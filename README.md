@@ -95,3 +95,9 @@ Modified output:
 ![Screenshot](assets/11.png)
 
 Seperti yang bisa Anda lihat, gambar di web berubah menjadi gambar yang sesuai dengan link diatas. Hal ini sangat berguna jika ingin mengganti gambar sesuai keinginan tanpa harus mengubah link di dalam style gambar. 
+
+## Answer of Question no. 6
+
+Fixed code: 
+
+![Screenshot](assets/13.png)
