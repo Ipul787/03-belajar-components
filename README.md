@@ -51,3 +51,15 @@ The page loads as usual with assets from Gallery component being displayed on th
 Source code on page.tsx
 
 ![Screenshot](assets/05.png)
+
+## Answer of Question no. 3
+
+Fixed code using converter: 
+
+![Screenshot](assets/07.png)
+
+Here, the code has "ClassName" instead of "Class" because JSX doesn't recognize "Class" as a property. 
+
+Output: 
+
+![Screenshot](assets/06.png)
