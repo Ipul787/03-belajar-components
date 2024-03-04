@@ -16,21 +16,26 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Practicum Report
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+|  | Framework Based Programming 2024 |
+|--|--|
+| NIM |  2141720067|
+| Nama |  Saefulloh Fatah Putra Kyranna |
+| Kelas | TI - 3I |
 
-## Learn More
+## Answer of Question no. 1
 
-To learn more about Next.js, take a look at the following resources:
+Output: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot](assets/01.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+There were some error at the beginning, such as not displaying the profile, however we can fix the error by editing the next.config.mjs file to include the image. 
 
-## Deploy on Vercel
+Error code: 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot](assets/02.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Fix that include the image: 
+
+![Screenshot](assets/03.png)
