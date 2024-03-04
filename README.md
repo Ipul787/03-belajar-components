@@ -75,3 +75,23 @@ There is a mistake on h1 tag in "person" curly bracket. It was supposed to refer
 Fixed code: 
 
 ![Screenshot](assets/09.png)
+
+## Answer of Question no. 5
+
+URL extraction from todolist: 
+
+![Screenshot](assets/10.png)
+
+Here, we extract the URL from src so that the image can be modified to any image according to the required image. We will demonstrate it with modifying the imageUrl constant with other image. 
+
+Original output: 
+
+![Screenshot](assets/12.png)
+
+Link to image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2017_British_GP_-_Vettel%27s_Ferrari_SF70H_with_%27Shield%27_system_%282%29.jpg/180px-2017_British_GP_-_Vettel%27s_Ferrari_SF70H_with_%27Shield%27_system_%282%29.jpg
+
+Modified output: 
+
+![Screenshot](assets/11.png)
+
+Seperti yang bisa Anda lihat, gambar di web berubah menjadi gambar yang sesuai dengan link diatas. Hal ini sangat berguna jika ingin mengganti gambar sesuai keinginan tanpa harus mengubah link di dalam style gambar. 

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Profile from "./components/profile";
 import { Gallery } from "./components/gallery";
 import Bio from "./components/bio";
+import TodoList from "./components/todolist";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       </div>
 
       <div className="mb-32 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <Bio />
+        <TodoList />
       </div>
     </main>
   );
