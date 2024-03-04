@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Profile from "./components/profile";
+import { Gallery } from "./components/gallery";
 
 export default function Home() {
   return (
@@ -18,15 +19,7 @@ export default function Home() {
         Ilmuwan yang luar biasa
       </p>
       <div className="relative flex lg:grid-cols-4">
-          <div className="col-md-4">
-            <Profile />
-          </div>
-          <div className="col-md-4">
-            <Profile />
-          </div>
-          <div className="col-md-4">
-            <Profile />
-          </div>
+          <Gallery />
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">

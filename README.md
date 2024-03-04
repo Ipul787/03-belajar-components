@@ -30,7 +30,7 @@ Output:
 
 ![Screenshot](assets/01.png)
 
-There were some error at the beginning, such as not displaying the profile, however we can fix the error by editing the next.config.mjs file to include the image. 
+There were some error at the beginning, such as not displaying the profile, however we can fix the error by editing the next.config.mjs file to include the image domain. 
 
 Error code: 
 
@@ -39,3 +39,15 @@ Error code:
 Fix that include the image: 
 
 ![Screenshot](assets/03.png)
+
+## Answer of Question no. 2
+
+Output: 
+
+![Screenshot](assets/04.png)
+
+The page loads as usual with assets from Gallery component being displayed on the screen. This is because inside the page.tsx there is a function that calls the component from the component folder. 
+
+Source code on page.tsx
+
+![Screenshot](assets/05.png)
