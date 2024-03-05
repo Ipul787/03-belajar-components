@@ -211,7 +211,7 @@ Modified output:
 
 ![Screenshot](assets/11.png)
 
-Seperti yang bisa Anda lihat, gambar di web berubah menjadi gambar yang sesuai dengan link diatas. Hal ini sangat berguna jika ingin mengganti gambar sesuai keinginan tanpa harus mengubah link di dalam style gambar. 
+As we can see, the image displayed into the website as intended by replacing the URL and calling the image Url constant from the JSX function. This is very useful if we want a dynamic web who could change the image as needed by the web administrator. 
 
 ## Answer of Question no. 6
 
