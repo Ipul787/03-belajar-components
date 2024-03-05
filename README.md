@@ -38,16 +38,17 @@ Error code:
 
 Fix that include the image: 
 
-....
+``````
 const nextConfig = {
     reactStrictMode: true,
     images : {
         domains : ['i.imgur.com']
     }
 };
-....
+
 
 export default nextConfig;
+``````
 
 ## Answer of Question no. 2
 
@@ -59,7 +60,7 @@ The page loads as usual with assets from Gallery component being displayed on th
 
 Source code on page.tsx
 
-....
+``````
 import Image from "next/image";
 import Profile from "./components/profile";
 import { Gallery } from "./components/gallery";
@@ -92,13 +93,13 @@ export default function Home() {
     </main>
   );
 }
-....
+``````
 
 ## Answer of Question no. 3
 
 Fixed code using converter: 
 
-....
+``````
 export default function Bio() {
     return (
       <>
@@ -119,7 +120,7 @@ export default function Bio() {
 
     );
 }
-....
+``````
 
 Here, the code has "ClassName" instead of "Class" because JSX doesn't recognize "Class" as a property. 
 
@@ -137,7 +138,7 @@ There is a mistake on h1 tag in "person" curly bracket. It was supposed to refer
 
 Fixed code: 
 
-....
+``````
 const person = {
     name: 'Gregorio Y. Zara',
     theme: {
@@ -163,13 +164,13 @@ const person = {
       </div>
     );
   }
-  ....
+``````
 
 ## Answer of Question no. 5
 
 URL extraction from todolist: 
 
-....
+``````
 const person = {
     name: 'Gregorio Y. Zara',
     theme: {
@@ -196,7 +197,7 @@ const person = {
       </div>
     );
   }
-....
+``````
 
 Here, we extract the URL from src so that the image can be modified to any image according to the required image. We will demonstrate it with modifying the imageUrl constant with other image. 
 
