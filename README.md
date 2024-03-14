@@ -217,4 +217,4 @@ Seperti yang bisa Anda lihat, gambar di web berubah menjadi gambar yang sesuai d
 
 Fixed code: 
 
-![Screenshot](assets/13.png)
+![Screenshot](assets/14.png)
