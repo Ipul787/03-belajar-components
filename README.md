@@ -218,3 +218,15 @@ As we can see, the image displayed into the website as intended by replacing the
 Fixed code: 
 
 ![Screenshot](assets/14.png)
+
+## Answer of Question no. 7
+
+As far as we concerned, there are no error in this code. However, as the question states, there are multiple markups in the code whih leads to duplication. Therefore, we need to extract the necessary props to remove duplication. 
+
+![Screenshot](assets/15.png)
+
+![Screenshot](assets/16.png)
+
+Output: 
+
+![Screenshot](assets/17.png)

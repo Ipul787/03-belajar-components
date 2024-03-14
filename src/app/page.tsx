@@ -3,6 +3,7 @@ import Profile from "./components/profile";
 import { Gallery } from "./components/gallery";
 import Bio from "./components/bio";
 import TodoList from "./components/todolist";
+import MyGallery from "./components/mygallery";
 
 export default function Home() {
   return (
@@ -21,11 +22,7 @@ export default function Home() {
         Ilmuwan yang luar biasa
       </p>
       <div className="relative flex lg:grid-cols-4">
-          <Gallery />
-      </div>
-
-      <div className="mb-32 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <TodoList />
+          <MyGallery />
       </div>
     </main>
   );
