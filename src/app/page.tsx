@@ -4,6 +4,7 @@ import { Gallery } from "./components/gallery";
 import Bio from "./components/bio";
 import TodoList from "./components/todolist";
 import MyGallery from "./components/mygallery";
+import MyProfile from "./components/myprofile";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         Ilmuwan yang luar biasa
       </p>
       <div className="relative flex lg:grid-cols-4">
-          <MyGallery />
+          <MyProfile />
       </div>
     </main>
   );

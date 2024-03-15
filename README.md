@@ -230,3 +230,17 @@ As far as we concerned, there are no error in this code. However, as the questio
 Output: 
 
 ![Screenshot](assets/17.png)
+
+## Answer of Question no. 8
+
+Initial code: 
+
+![Screenshot](assets/18.png)
+
+There is an error in the initial code, such as getImageUrl that is still pointing to the old version and the MyAvatar function doesn't correspond with the return function. Therefore, we need to fix the code in the following image. Additionally, the Myavatar component has been changed according to the image size. 
+
+![Screenshot](assets/19.png)
+
+Output: 
+
+![Screenshot](assets/20.png)
